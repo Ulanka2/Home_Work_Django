@@ -1,0 +1,14 @@
+
+
+{% for post in posts %}
+    <p><a href="{{ post.get_absolute_url }}"> Новости</a></p>
+{% endfor %}
+
+{% for employe in employee %}
+    <p><a href="{{ employe.get_absolute_url }} "> Сотрудники</a></p>
+{% endfor %}
+
+
+{% for question in question %}
+    <p><a href="{{ question.get_absolute_url }}"> Вопросы</a></p>
+{% endfor %}
